@@ -1,0 +1,63 @@
+.containerContact {
+  background-color: #7C76BB;
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+}
+header .navContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+header .navContainer img {
+  height: 50%;
+}
+header .navContainer nav {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navContainer nav .navText {
+  font-size: 24px;
+  font-weight: 500;
+  color: #7C76BB;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+header .navContainer nav .navText a {
+  text-decoration: none;
+}
+header .navContainer nav a .contactButton {
+  border-style: solid;
+  height: 50px;
+  width: 140px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  background-color: #7C76BB;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: beige;
+}/*# sourceMappingURL=main.css.map */

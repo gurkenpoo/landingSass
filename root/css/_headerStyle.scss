@@ -1,0 +1,58 @@
+
+$fontText : 'Poppins', sans-serif;
+.containerContact {
+    background-color: #7C76BB;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    font-family: $fontText;
+    font-size: 15px;
+    font-weight: lighter;
+}
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    .navContainer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        img {
+            height: 50%;
+    
+        }
+        nav {
+            display: flex;
+            width: 30%;
+            justify-content: space-between;
+            align-items: center;
+            .navText {
+            font-size: 24px;
+            font-weight: 500;
+            color: #7C76BB;
+            font-weight: 700;
+            font-family: $fontText;
+            a {
+                text-decoration: none;
+            }
+        }
+        a {
+            // button
+            .contactButton {
+                border-style: solid;
+                height: 50px;
+                width: 140px;
+                border-radius: 5px;
+                font-weight: 700;
+                font-family: $fontText;
+                font-size: 15px;
+                color: #fff;
+                background-color: #7C76BB;
+            }
+        }
+    }
+    }
+}
