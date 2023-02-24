@@ -46,12 +46,25 @@ header .navContainer nav a .contactButton {
   border-style: solid;
   height: 50px;
   width: 140px;
-  border-radius: 5px;
+  border-radius: 10px;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   color: #fff;
   background-color: #7C76BB;
+}
+
+.navLink::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #7C76BB;
+  transition: width 0.3s;
+}
+
+.navLink:hover::after {
+  width: 100%;
 }
 
 .parallax {
@@ -79,6 +92,11 @@ header .navContainer nav a .contactButton {
   font-size: 75px;
   font-weight: bold;
   width: 40%;
+}
+
+aside {
+  height: 500px;
+  background-color: #444;
 }
 
 * {

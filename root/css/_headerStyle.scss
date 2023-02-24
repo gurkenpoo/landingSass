@@ -51,7 +51,7 @@ header {
                 border-style: solid;
                 height: 50px;
                 width: 140px;
-                border-radius: 5px;
+                border-radius: 10px;
                 font-weight: 700;
                 font-family: $fontTextP;
                 font-size: 15px;
@@ -60,4 +60,19 @@ header {
             }
         }    }
     }
+}
+
+
+.navLink::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #7C76BB;
+    transition: width .3s;
+}
+
+.navLink:hover::after {
+    width: 100%;
+    //transition: width .3s;
 }
