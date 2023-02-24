@@ -1,13 +1,30 @@
+// Efecto parallax
 .parallax {
-    /* The image used */
     background-image: url(../img/header_background_placeholder.jpg);
-  
-    /* Set a specific height */
-    min-height: 500px;
-  
-    /* Create the parallax scrolling effect */
+    min-height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
   }
+
+$fontTextP : 'Poppins', sans-serif;
+$fontTextM : 'Montserrat', sans-serif;
+
+.mainSection {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  font-family: $fontTextP;
+  color: #fff;
+  text-align: center;
+  .title {
+    font-size: 75px;
+    font-weight: bold;
+    width: 40%;
+    }
+}
