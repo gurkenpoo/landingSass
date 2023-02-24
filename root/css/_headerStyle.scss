@@ -1,11 +1,17 @@
 
-$fontText : 'Poppins', sans-serif;
+$fontTextP : 'Poppins', sans-serif;
+$fontTextM : 'Montserrat', sans-serif;
+
+
+
 .containerContact {
     background-color: #7C76BB;
     display: flex;
     justify-content: space-evenly;
     color: #fff;
-    font-family: $fontText;
+    align-items: center;
+    height: 30px;
+    font-family: $fontTextP;
     font-size: 15px;
     font-weight: lighter;
 }
@@ -34,7 +40,7 @@ header {
             font-weight: 500;
             color: #7C76BB;
             font-weight: 700;
-            font-family: $fontText;
+            font-family: $fontTextP;
             a {
                 text-decoration: none;
             }
@@ -47,12 +53,11 @@ header {
                 width: 140px;
                 border-radius: 5px;
                 font-weight: 700;
-                font-family: $fontText;
+                font-family: $fontTextP;
                 font-size: 15px;
                 color: #fff;
                 background-color: #7C76BB;
             }
-        }
-    }
+        }    }
     }
 }

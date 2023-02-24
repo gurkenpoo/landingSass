@@ -3,6 +3,8 @@
   display: flex;
   justify-content: space-evenly;
   color: #fff;
+  align-items: center;
+  height: 30px;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: lighter;
@@ -50,6 +52,18 @@ header .navContainer nav a .contactButton {
   font-size: 15px;
   color: #fff;
   background-color: #7C76BB;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(../img/header_background_placeholder.jpg);
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 * {
