@@ -47,6 +47,7 @@ $fontTextM : 'Montserrat', sans-serif;
     flex-direction: column;
     justify-content: center;
     width: 25%;
+    gap:2em;
 
     > .title, h2{
     text-align: left;
@@ -57,7 +58,7 @@ $fontTextM : 'Montserrat', sans-serif;
       color: #fff;
       }
       h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 100;
         color: #a5a0a0;
       }
@@ -76,8 +77,8 @@ $fontTextM : 'Montserrat', sans-serif;
     width: 80%;
     height: 70%;
     border-radius: 15px;
-    box-shadow:  20px 20px 60px #5fd4d48e,
-             -20px -20px 60px #5fd4d48e;
+    box-shadow:  inset 10px 10px 15px #0000008e,
+             inset -10px -10px 15px #0000008e;
     }
   }
 }

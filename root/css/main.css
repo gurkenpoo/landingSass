@@ -36,24 +36,12 @@ header .navContainer nav .navText {
   font-size: 24px;
   font-weight: 500;
   color: #7C76BB;
-  font-weight: 700;
+  font-weight: 100;
   font-family: "Poppins", sans-serif;
 }
 header .navContainer nav .navText a {
   text-decoration: none;
 }
-header .navContainer nav a .contactButton {
-  border-style: solid;
-  height: 50px;
-  width: 140px;
-  border-radius: 10px;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  color: #fff;
-  background-color: #7C76BB;
-}
-
 .navLink::after {
   content: "";
   display: block;
@@ -65,6 +53,7 @@ header .navContainer nav a .contactButton {
 
 .navLink:hover::after {
   width: 100%;
+  transition: width 0.3s;
 }
 
 .parallax {
@@ -114,6 +103,7 @@ header .navContainer nav a .contactButton {
   flex-direction: column;
   justify-content: center;
   width: 25%;
+  gap: 2em;
 }
 .secondSection .somos > .title, .secondSection .somos h2 {
   text-align: left;
@@ -124,7 +114,7 @@ header .navContainer nav a .contactButton {
   color: #fff;
 }
 .secondSection .somos h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 100;
   color: #a5a0a0;
 }
@@ -144,7 +134,45 @@ header .navContainer nav a .contactButton {
   width: 80%;
   height: 70%;
   border-radius: 15px;
-  box-shadow: 20px 20px 60px rgba(95, 212, 212, 0.5568627451), -20px -20px 60px rgba(95, 212, 212, 0.5568627451);
+  box-shadow: inset 10px 10px 15px rgba(0, 0, 0, 0.5568627451), inset -10px -10px 15px rgba(0, 0, 0, 0.5568627451);
+}
+
+.contactButton {
+  border-style: solid;
+  height: 50px;
+  width: 140px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  background-color: #7c76bb;
+}
+
+.contactButton:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #7c76bb;
+}
+
+.alternativeButton.contactButton {
+  border-style: solid;
+  height: 50px;
+  width: 140px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #7c76bb;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+.alternativeButton.contactButton:hover {
+  cursor: pointer;
+  background-color: #7c76bb;
+  color: #fff;
 }
 
 * {

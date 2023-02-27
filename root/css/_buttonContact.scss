@@ -1,0 +1,38 @@
+$fontTextP: "Poppins", sans-serif;
+$fontTextM: "Montserrat", sans-serif;
+
+.contactButton {
+  border-style: solid;
+  height: 50px;
+  width: 140px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-family: $fontTextP;
+  font-size: 15px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  background-color: #7c76bb;
+}
+.contactButton:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #7c76bb;
+}
+
+.alternativeButton.contactButton {
+  border-style: solid;
+  height: 50px;
+  width: 140px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-family: $fontTextP;
+  font-size: 15px;
+  color: #7c76bb;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+.alternativeButton.contactButton:hover {
+  cursor: pointer;
+  background-color: #7c76bb;
+  color: #fff;
+}

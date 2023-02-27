@@ -39,29 +39,34 @@ header {
             font-size: 24px;
             font-weight: 500;
             color: #7C76BB;
-            font-weight: 700;
+            font-weight: 100;
             font-family: $fontTextP;
             a {
                 text-decoration: none;
             }
         }
         a {
-            // button
-            .contactButton {
-                border-style: solid;
-                height: 50px;
-                width: 140px;
-                border-radius: 10px;
-                font-weight: 700;
-                font-family: $fontTextP;
-                font-size: 15px;
-                color: #fff;
-                background-color: #7C76BB;
-            }
+            // BUTTON CONTACT DISPONIBLE EN buttoncontact.scss
+            // .contactButton {
+            //     border-style: solid;
+            //     height: 50px;
+            //     width: 140px;
+            //     border-radius: 10px;
+            //     font-weight: 700;
+            //     font-family: $fontTextP;
+            //     font-size: 15px;
+            //     color: #fff;
+            //     transition: all 0.3s ease-in-out;
+            //     background-color: #7C76BB;
+            // }
+            // .contactButton:hover {
+            //    cursor: pointer;
+            //    background-color: #fff;
+            //    color: #7C76BB;
+            // }
         }    }
     }
 }
-
 
 .navLink::after {
     content: '';
@@ -74,5 +79,5 @@ header {
 
 .navLink:hover::after {
     width: 100%;
-    //transition: width .3s;
+    transition: width .3s;
 }
