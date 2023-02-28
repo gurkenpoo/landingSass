@@ -73,12 +73,20 @@ $fontTextM : 'Montserrat', sans-serif;
     justify-content: center;
     align-items: center;
   .innerBox{
-    background-color: #fff;
-    width: 80%;
-    height: 70%;
-    border-radius: 15px;
-    box-shadow:  inset 10px 10px 15px #0000008e,
-             inset -10px -10px 15px #0000008e;
+    background-color: #7c76bb;
+    width: 85%;
+    height: 80%;
+    border-radius: 5px;
+    box-shadow:  2px 2px 10px #00000044,
+              -2px -2px 10px #00000044;
+    display: grid;;
+    grid-template-columns: auto auto auto;
     }
+  .boxGrid {
+    background-color: #8984c0;
+    border: 1px dotted rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    display: flex;
+  }
   }
 }

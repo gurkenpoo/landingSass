@@ -130,11 +130,19 @@ header .navContainer nav .navText a {
   align-items: center;
 }
 .second.parallax .floatingSection .innerBox {
-  background-color: #fff;
-  width: 80%;
-  height: 70%;
-  border-radius: 15px;
-  box-shadow: inset 10px 10px 15px rgba(0, 0, 0, 0.5568627451), inset -10px -10px 15px rgba(0, 0, 0, 0.5568627451);
+  background-color: #7c76bb;
+  width: 85%;
+  height: 80%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2666666667), -2px -2px 10px rgba(0, 0, 0, 0.2666666667);
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.second.parallax .floatingSection .boxGrid {
+  background-color: #8984c0;
+  border: 1px dotted rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  display: flex;
 }
 
 .contactButton {
@@ -146,7 +154,7 @@ header .navContainer nav .navText a {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   color: #fff;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   background-color: #7c76bb;
 }
 
@@ -165,7 +173,7 @@ header .navContainer nav .navText a {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   color: #7c76bb;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   background-color: #fff;
 }
 
